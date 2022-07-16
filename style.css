@@ -1,0 +1,121 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+.contenar{
+    width:1180px;
+    margin:0 auto;
+    margin-bottom:90px;
+}
+#first-section{
+    /* background-image:url(images/slide-2.jpg); */
+	background-position:center center; 
+    padding:20px 20px;
+    background-image: linear-gradient(to right, rgba(57, 105, 91, 0.555) , rgba(47, 42, 117, 0.267));}
+.section-topheader{
+    color:white;
+    font-size:45px;
+    width:300px;
+    margin-left: 14px;
+}
+ .pragrap {
+    font-size:16px;
+    color:white;
+    width:360px;
+}
+.link-button{
+    background-color:tomato;
+    padding:16px 30px;
+    border-radius:30px;
+    border:none;
+    color:white;
+    font-size: 18px;
+}
+p{
+    font-size:16px;
+    color:rgb(100, 100, 100);
+    line-height:1.8;
+}
+.TopHeader-image{
+    display:flex;
+}
+.box-section{
+    width:50%;
+    margin:50px;
+}
+.section-header{
+    font-size: 40px;
+    font-weight: 900;
+    color:rgb(26, 25, 25);
+    margin:0;
+    line-height: 1.2;
+}
+.header-box{
+    width:40%;
+    margin:0 auto;
+    text-align:center;
+}
+.icon-main-box{
+    width:900px;
+    margin:0 auto;
+    display: flex;
+    /* column-count: 2; */
+}
+.icon-box{
+    background:rgb(248, 239, 239);
+    margin:10px;
+    padding:20px;
+    display:flex;
+    border-radius: 10px;
+}
+.icon-box img{
+    width:40px;
+    margin: 50px 30px 20px 10px;
+}
+.image-section img{
+    column-count: 3;
+    border-radius: 20px;
+    margin:10px;
+    width:350px;
+}
+.blog-box{
+    display:flex;   
+}
+.img-box{
+    margin:10px;
+    overflow: hidden;
+    border-radius: 15px;
+    border:1px solid rgba(128, 127, 127, 0.226);
+}
+.img-box img{
+    width:100%;
+    max-width: 100%;
+}
+.img-box h1,p,button{
+    margin-left: 25px;
+}
+.pray-button{
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    list-style: none;
+    color:red;
+    border-bottom: 2px solid red; 
+    margin-bottom: 20px;
+    font-size: 18px;  
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding:40px 0px;
+}
+footer h1{
+    color:red;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+footer small{
+    color:rgb(138, 136, 136);
+    font-size: 12px;
+    margin:0;
+}
